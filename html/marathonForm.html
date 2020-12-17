@@ -12,31 +12,31 @@
     <form action="MarathonForm">
         <div>
             <label for="First Name">Fisrt Name</label>
-            <input type="text" name="First Name" id="First Name">
+            <input type="text" name="First Name" id="First Name" required>
             <label for="Last Name">Last Name</label>
-            <input type="text" name="Last Name" id="Last Name">
+            <input type="text" name="Last Name" id="Last Name" required>
         </div>
         <div>
             <p>Select a Race:</p>
             <div>
-                <input type="radio" id="5k" name="race" value="5k">
+                <input type="radio" id="5k" name="race" value="5k" required>
                 <label for="5k">Fun Run 5k</label>
             </div>
             <div>
-                <input type="radio" id="half" name="race" value="half">
+                <input type="radio" id="half" name="race" value="half" required>
                 <label for="half">Half Marathon</label>
             </div>
             <div>
-                <input type="radio" id="full" name="race" value="full">
+                <input type="radio" id="full" name="race" value="full" required>
                 <label for="full">Full Marathon</label>
             </div>
 
         </div>
         <div>
             <label for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" required>
             <label for="password">Password</label>
-            <input type="password" id="password">
+            <input type="password" id="password" minlength="3" maxlength="6" required>
         </div>
         <div>
             <label for="age">Select Age Groupe</label>
