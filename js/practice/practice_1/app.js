@@ -40,12 +40,12 @@
 //     console.log("Password   too short")
 // }
 
-// const password = prompt("please enter a new password");
+const password = prompt("please enter a new password");
 
-// if (password.length >= 6 && password.indexOf(' ') === -1) {
-//     console.log("Valid password!");
-// }
-// else {
-//     console.log("Incorrect format for password!");
-// }
+if (password.length >= 6 && password.indexOf(' ') === -1) {
+    console.log("Valid password!");
+}
+else {
+    console.log("Incorrect format for password!");
+}
 
