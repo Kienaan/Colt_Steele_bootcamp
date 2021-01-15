@@ -40,12 +40,25 @@
 //     console.log("Password   too short")
 // }
 
-const password = prompt("please enter a new password");
+// const password = prompt("please enter a new password");
 
-if (password.length >= 6 && password.indexOf(' ') === -1) {
-    console.log("Valid password!");
-}
-else {
-    console.log("Incorrect format for password!");
+// if (password.length >= 6 && password.indexOf(' ') === -1) {
+//     console.log("Valid password!");
+// }
+// else {
+//     console.log("Incorrect format for password!");
+// }
+
+for (let i = 1; i <= 6; i++) {
+    console.log("Da ba dee da ba daa")
 }
 
+// Even Numbers
+for (let i = 0; i <= 20; i += 2) {
+    console.log(i)
+}
+
+// counting down
+for (let i = 25; i >= 0; i -= 5) {
+    console.log(i);
+}
