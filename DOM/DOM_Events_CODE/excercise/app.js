@@ -13,8 +13,11 @@ form.addEventListener('submit', function (e) {
 const addUl = (prdct, q) => {
     const newProduct = document.createElement('li');
     newProduct.innerText = (`${q} ${prdct}s`);
-    // newQty.appendChild(product)
-    // newProduct.appendChild(newQty);
-    // newProduct.appendChild(qty);
     ul.appendChild(newProduct);
 }
+
+
+
+ // newQty.appendChild(product)
+    // newProduct.appendChild(newQty);
+    // newProduct.appendChild(qty);
