@@ -1,6 +1,6 @@
 // Leave the next line, the form must be assigned to a variable named 'form' in order for the exercise test to pass
 const form = document.querySelector('form');
-const ul = document.querySelector('#list');
+const ul = document.querySelector('#lis');
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     const prdct = form.elements.product;
